@@ -12,7 +12,9 @@ class Movie():
         movie_title,
         movie_storyLine,
         movie_posterImage,
-        movie_trailerlink):
+        movie_trailerlink,
+        movie_actor,
+        movie_director):
         """
         Contructor Instantiates the movie object
         with the properties set by user.
@@ -21,6 +23,8 @@ class Movie():
         self.storyLine = movie_storyLine
         self.poster_image_url = movie_posterImage
         self.trailer_youtube_url = movie_trailerlink
+        self.actor=movie_actor
+        self.director=movie_director
 
     def show_trailer(self):
         """
